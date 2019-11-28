@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<Settings>
+  <!-- Number of inner corners per a item row and column. (square, circle) -->
+  <BoardSize_Width>13</BoardSize_Width>
+  <BoardSize_Height>9</BoardSize_Height>
+  <!-- The size of a square in some user defined metric system (pixel, millimeter)-->
+  <Square_Size>60</Square_Size>
+  <!-- Time delay between frames in case of camera. -->
+  <Input_Delay>1000</Input_Delay>
+  <!-- The type of input used for camera calibration. One of: CHESSBOARD CIRCLES_GRID ASYMMETRIC_CIRCLES_GRID -->
+  <Calibrate_Pattern>"CIRCLES_GRID"</Calibrate_Pattern>
+  <!-- How many frames to use, for calibration. -->
+  <Calibrate_NrOfFrameToUse>9</Calibrate_NrOfFrameToUse>
+  <Input>"C:\\Users\\alhatv\\Desktop\\FPSD_Calibaration\\Code\\Calibaration\\Input.xml"</Input>
+  <!-- The name of the output log file. -->
+  <Write_outputFileName>"MM_FPSD_Rightside.xml"</Write_outputFileName>
+  <!-- Time delay between frames in case of camera. -->
+  <Calibrate_FixAspectRatio>1</Calibrate_FixAspectRatio>
+  <!-- If true (non-zero) tangential distortion coefficients are set to zeros and stay zero.-->
+  <Calibrate_AssumeZeroTangentialDistortion>1</Calibrate_AssumeZeroTangentialDistortion>
+  <!-- If true (non-zero) the principal point is not changed during the global optimization.-->
+  <Calibrate_FixPrincipalPointAtTheCenter>1 </Calibrate_FixPrincipalPointAtTheCenter>
+</Settings>
+</opencv_storage>
